@@ -48,3 +48,30 @@ hr.waves {
 .align-right {
   text-align: right;
 }
+
+@media screen and (min-width: 480px) {
+  header {
+    background: #001f25 linear-gradient(0deg, #112500 0%, #a4fc02 100%);
+  }
+  footer {
+    background-color: #112500;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    background: #001f25 linear-gradient(0deg, #251900 0%, #fcad02 100%);
+  }
+  footer {
+    background-color: #251900;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    background: #001f25 linear-gradient(0deg, #250f00 0%, #fc7202 100%);
+  }
+  footer {
+    background-color: #250f00;
+  }
+}
